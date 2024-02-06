@@ -5,9 +5,11 @@ public class Main {
 
 
         if (topup > 1000) {
-            System.out.println(" Ваш баланс: " + (topup/100) + topup + account);
+            System.out.println(" Ваш баланс: " + ((topup/100) + topup + account));
+            System.out.println(" Размер бонуса: " + topup/100);
         } else {
-            System.out.println(" Ваш баланс: " + (topup + account);
+            System.out.println(" Ваш баланс: " + (topup + account));
+            System.out.println(" Размер бонуса: " + 0);
         }
 
 
